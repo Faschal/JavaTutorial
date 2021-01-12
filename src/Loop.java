@@ -35,6 +35,12 @@ public class Loop {
 //			}
 //		}
 		
+		String[] animals = {"dog", "bird", "cheetah", "lion"};
+		
+		for (String animal : animals) {
+			System.out.println(animal);
+		}
+		
 	}
 
 }
