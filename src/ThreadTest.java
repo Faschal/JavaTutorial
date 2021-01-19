@@ -7,7 +7,8 @@ public class ThreadTest {
 		MyRunable runable1 = new MyRunable();
 		Thread thread2 = new Thread(runable1);
 		
-		thread1.start();	
+		thread1.start();
+//		thread1.join();
 		thread2.start();
 		
 	}
